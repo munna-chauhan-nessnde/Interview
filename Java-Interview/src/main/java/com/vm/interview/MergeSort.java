@@ -2,11 +2,12 @@ package com.vm.interview;
 
 import java.util.Arrays;
 
-import static java.lang.System.*;
+import static java.lang.System.arraycopy;
+import static java.lang.System.out;
 
 /**
  * @Author Munna Chauhan
- * Github  https://github.com/victormunna/Java-Interview
+ * Github  https://github.com/victormunna/Interview
  * Sorting -> Merge sort
  * it's used (1)Divide and Conquer (2)Recursion (3)Stable (4)Not In-Place
  * Space complexity O(n) or thita(n)

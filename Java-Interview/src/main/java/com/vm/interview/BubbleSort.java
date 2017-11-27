@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @Author Munna Chauhan
- * Github https://github.com/victormunna/Java-Interview
+ * Github https://github.com/victormunna/Interview
  * Sorting -> Bubble sort
  * Bubble Sort Time complexity:
  * in Best Case: Big-Oh(n^2) in average case: O(n^2) and in Worst Case: O(n^2)

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @Author Munna Chauhan
- * Github https://github.com/victormunna/Java-Interview
+ * Github https://github.com/victormunna/Interview
  * Sorting -> Selection Sort -> slow Sorting algorithm
  * <p>
  * In-Place sorting algorithms takes constant amount of extra memory.

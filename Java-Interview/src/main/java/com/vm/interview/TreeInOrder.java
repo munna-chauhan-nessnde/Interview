@@ -2,7 +2,7 @@ package com.vm.interview;
 
 /**
  * @Author Munna Chauhan
- * Github https://github.com/victormunna/Java-Interview
+ * Github https://github.com/victormunna/Interview
  * Tree In Order left-then-root-then-right
  * <p>
  * Tree Pre Order root-then-left-then-right

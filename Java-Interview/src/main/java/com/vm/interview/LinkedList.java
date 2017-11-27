@@ -2,9 +2,9 @@ package com.vm.interview;
 
 /**
  * @Author Munna Chauhan
- * Github https://github.com/victormunna/Java-Interview
+ * Github https://github.com/victormunna/Interview
  */
-public class Node {
+class Node {
 
     Node next;
     int data;
@@ -14,7 +14,7 @@ public class Node {
     }
 }
 
-class LinkedList {
+public class LinkedList {
     Node head;
 
     public void append(int data) {

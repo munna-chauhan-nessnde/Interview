@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @Author Munna Chauhan
- * Github https://github.com/victormunna/Java-Interview
+ * Github https://github.com/victormunna/Interview
  * Sorting -> Insertion Sort -> not the best Sorting algorithm but better than selection and bubble sort
  * Time Complexity in best case  T(n) = O(n)
  * Time Complexity in average and worst case  T(n) = O(n^2) like. Reverse sort
