@@ -14,7 +14,7 @@ class Node {
     }
 }
 
-public class LinkedList {
+public class SinglyLinkedList {
     Node head;
 
     public void append(int data) {
