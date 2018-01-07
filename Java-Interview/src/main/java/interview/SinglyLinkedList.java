@@ -1,4 +1,4 @@
-package com.vm.interview;
+package interview;
 
 /**
  * @Author Munna Chauhan
