@@ -1,19 +1,5 @@
 package interview;
 
-/**
- * @Author Munna Chauhan
- * Github https://github.com/victormunna/Interview
- */
-class Node {
-
-    Node next;
-    int data;
-
-    public Node(int data) {
-        this.data = data;
-    }
-}
-
 public class SinglyLinkedList {
     Node head;
 
