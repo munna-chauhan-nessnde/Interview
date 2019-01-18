@@ -7,7 +7,7 @@ public class SecondLargestElement {
 
     public static void main(String[] args) {
 
-        int[] array = {200, 4, 5, 7, 35, 23, 43, 11, -32, 2, 4, 76, 8, 55, -2, 100};
+        int[] array = {200, 4, 5, 7, 35, 23, 43, 11, -32, 2, 4, 8, 55, -2, 109};
 
         int MAX = 0;
         int MIN = 0;
@@ -15,12 +15,12 @@ public class SecondLargestElement {
         int secondLargest = 0;
 
         for (int i = 0; i < size; i++) {
-            if (array[i] >= MAX) {
+            if (array[i] > MAX) {
                 secondLargest = MAX;
                 MAX = array[i];
-            } else if (array[i] >= secondLargest){
+            } else if (array[i] > secondLargest) {
                 secondLargest = array[i];
-            }else if(array[i] <= MIN){
+            } else if (array[i] <= MIN) {
                 MIN = array[i];
             }
         }

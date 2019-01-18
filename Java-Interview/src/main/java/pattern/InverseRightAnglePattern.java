@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 /**
  * Right angle Pattern ->                   *
- *                                       *  *
- *                                    *  *  *
- *                                  * *  *  *
- *                                * * *  *  *
+ *                                          *  *
+ *                                          *  *  *
+ *                                          * *  *  *
+ *                                          * * *  *  *
  */
 public class InverseRightAnglePattern {
 
@@ -17,9 +17,9 @@ public class InverseRightAnglePattern {
         // int n = sc.nextInt();
         int n = 5;
         int i, j;
-        for(i=0; i<n; i++) {
-            for(j=0; j<=n; j++) {
-                if(j>=n-i)System.out.print(" *");
+        for (i = 0; i < n; i++) {
+            for (j = 0; j <= n; j++) {
+                if (j >= n - i) System.out.print(" *");
                 else System.out.print("  ");
 
             }

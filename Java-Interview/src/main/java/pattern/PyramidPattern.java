@@ -3,11 +3,11 @@ package pattern;
 import java.util.Scanner;
 
 /**
- * Pyramid Pattern ->                    *
- *                                         *   *
- *                                       *   *   *
- *                                     *   *   *   *
- *                                   *   *   *   *   *
+ * Pyramid Pattern ->                     *
+ *                                      *   *
+ *                                     *   *   *
+ *                                    *   *   *   *
+ *                                  *   *   *   *   *
  */
 
 public class PyramidPattern {
@@ -20,9 +20,9 @@ public class PyramidPattern {
         for (i = 0; i < n; i++) {
             for (j = 0; j <= n; j++) {
                 if (j >= n - i) System.out.print(" *");
-                    System.out.print("  ");
-                }
-                System.out.println();
+                System.out.print("  ");
             }
+            System.out.println();
         }
     }
+}

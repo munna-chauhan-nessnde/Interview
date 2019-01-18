@@ -11,14 +11,14 @@ class Node {
     int data;
 
     /**
-     * Singly as well as doubly linked List
+     * For Singly linked List
      */
     public Node(int data) {
         this.data = data;
     }
 
     /**
-     * Only for doubly linked List
+     * For doubly linked List
      */
     public Node(Node prev, int data, Node next) {
         this.prev = prev;
