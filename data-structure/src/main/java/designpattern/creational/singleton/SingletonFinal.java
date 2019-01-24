@@ -6,15 +6,15 @@ package designpattern.creational.singleton;
 public final class SingletonFinal {
 
     /**
+     * Static to class instance of the class.
+     */
+    private static final SingletonFinal INSTANCE = new SingletonFinal();
+
+    /**
      * Private constructor so nobody can instantiate the class.
      */
     private SingletonFinal() {
     }
-
-    /**
-     * Static to class instance of the class.
-     */
-    private static final SingletonFinal INSTANCE = new SingletonFinal();
 
     /**
      * To be called by user to obtain instance of the class.
